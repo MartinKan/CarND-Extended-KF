@@ -1,9 +1,6 @@
 #ifndef KALMAN_FILTER_H_
 #define KALMAN_FILTER_H_
 #include "Eigen/Dense"
-#include <fstream>
-
-using namespace std;
 
 class KalmanFilter {
 public:
@@ -66,11 +63,6 @@ public:
    * @param z The measurement at k+1
    */
   void UpdateEKF(const Eigen::VectorXd &z);
-
-private:
-
-  // FOR DEBUGGING PURPOSES
-  // ofstream myfile;
 
 };
 

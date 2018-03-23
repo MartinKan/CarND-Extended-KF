@@ -44,15 +44,6 @@ private:
   Eigen::MatrixXd R_radar_;
   Eigen::MatrixXd H_laser_;
   Eigen::MatrixXd Hj_;
-
-  // constants for computing the process covariance matrix Q
-  float noise_ax;
-  float noise_ay;
-
-  // FOR DEBUGGING PURPOSES
-  // ofstream myfile;
-  // int step;
-
 };
 
 #endif /* FusionEKF_H_ */
