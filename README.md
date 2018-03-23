@@ -3,7 +3,7 @@
 
 Background
 ---
-In this project, my goal is to build an extended kalman filter in C++ that will work with the radar and lidar dataset provided to estimate the correct position of a vehicle in a simulation.
+In this project, my goal is to build an extended kalman filter in C++ that will work with the provided radar and lidar dataset to estimate the correct position of a vehicle in a simulation.
 
 Overview of Repository
 ---
