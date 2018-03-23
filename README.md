@@ -9,13 +9,12 @@ Overview of Repository
 ---
 This repository contains the following source files that I have forked from the [main repository](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project) and subsequently modified for the extended Kalman filter project:
 
-[EDIT LINKS BELOW]
-1.  [FusionEKF.cpp](EDIT LINK)
-2.  [FusionEKF.h](EDIT LINK)
-3.  [kalman_filter.cpp](EDIT LINK)
-4.  [kalman_filter.h](EDIT LINK)
-5.  [tools.cpp](EDIT LINK)
-6.  [tools.h](EDIT LINK)
+1.  [FusionEKF.cpp](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/FusionEKF.cpp)
+2.  [FusionEKF.h](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/FusionEKF.h)
+3.  [kalman_filter.cpp](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/kalman_filter.cpp)
+4.  [kalman_filter.h](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/kalman_filter.h)
+5.  [tools.cpp](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/tools.cpp)
+6.  [tools.h](https://github.com/MartinKan/CarND-Extended-KF/blob/master/src/tools.h)
 
 The FusionEKF class initializes the Kalman filter and the variables that are used by the filter.  It calls functions in the Kalman filter that implement the prediction step or update step.  Depending on the type of sensor information it received, it will either call the standard Kalman filter update step (lidar) or the extended Kalman filter update step (radar).  When FusionEKF is called for the first time by main, it will try to initialize the object's location (contained inside the state vector x) with the sensor measurement.
 
